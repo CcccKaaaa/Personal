@@ -1,82 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2023-01-26T15:37:54.610Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.5" etag="S-MfMdkBsInOl7MNWciR" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-27T13:14:36.253Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="zeuQS-xaoiz1QskHbctV" version="20.8.11" type="github">
   <diagram id="SwiEUL8XS2eCC648J0Tq" name="Page-1">
-    <mxGraphModel dx="989" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="s-ObFcmHak2hAyVbCj2Y-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-ObFcmHak2hAyVbCj2Y-42" target="s-ObFcmHak2hAyVbCj2Y-92">
+        <mxCell id="s-ObFcmHak2hAyVbCj2Y-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="s-ObFcmHak2hAyVbCj2Y-42" target="s-ObFcmHak2hAyVbCj2Y-92" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s-ObFcmHak2hAyVbCj2Y-42" value="Direct child of Component" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="30" y="650" width="270" height="120" as="geometry">
+        <mxCell id="s-ObFcmHak2hAyVbCj2Y-42" value="Direct child of Component" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="12.5" y="650" width="305" height="120" as="geometry">
             <mxRectangle x="120" y="680" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s-ObFcmHak2hAyVbCj2Y-43" value="1. export class DirectChild extends Component" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="s-ObFcmHak2hAyVbCj2Y-42">
-          <mxGeometry y="30" width="270" height="30" as="geometry" />
+        <mxCell id="s-ObFcmHak2hAyVbCj2Y-43" value="1. export class DirectChild extends Component" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="s-ObFcmHak2hAyVbCj2Y-42" vertex="1">
+          <mxGeometry y="30" width="305" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="s-ObFcmHak2hAyVbCj2Y-44" value="2. Include other Component as it Child" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="s-ObFcmHak2hAyVbCj2Y-42">
-          <mxGeometry y="60" width="270" height="30" as="geometry" />
+        <mxCell id="s-ObFcmHak2hAyVbCj2Y-44" value="2. Include other Component as it Child" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="s-ObFcmHak2hAyVbCj2Y-42" vertex="1">
+          <mxGeometry y="60" width="305" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="s-ObFcmHak2hAyVbCj2Y-45" value="3. Create new tempate and add those Child" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="s-ObFcmHak2hAyVbCj2Y-42">
-          <mxGeometry y="90" width="270" height="30" as="geometry" />
+        <mxCell id="s-ObFcmHak2hAyVbCj2Y-45" value="3. Create new tempate and add those Child (or not)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="s-ObFcmHak2hAyVbCj2Y-42" vertex="1">
+          <mxGeometry y="90" width="305" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="s-ObFcmHak2hAyVbCj2Y-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.519;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s-ObFcmHak2hAyVbCj2Y-81" target="s-ObFcmHak2hAyVbCj2Y-96">
+        <mxCell id="s-ObFcmHak2hAyVbCj2Y-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.519;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="s-ObFcmHak2hAyVbCj2Y-81" target="s-ObFcmHak2hAyVbCj2Y-96" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s-ObFcmHak2hAyVbCj2Y-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="s-ObFcmHak2hAyVbCj2Y-81" target="s-ObFcmHak2hAyVbCj2Y-105">
+        <mxCell id="s-ObFcmHak2hAyVbCj2Y-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="s-ObFcmHak2hAyVbCj2Y-81" target="s-ObFcmHak2hAyVbCj2Y-105" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="470" y="790" />
+              <mxPoint x="490" y="790" />
               <mxPoint x="775" y="790" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="s-ObFcmHak2hAyVbCj2Y-81" value="Direct child of SomeComponent" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="330" y="650" width="280" height="120" as="geometry">
+        <mxCell id="s-ObFcmHak2hAyVbCj2Y-81" value="Direct child of SomeComponent" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="330" y="650" width="320" height="120" as="geometry">
             <mxRectangle x="120" y="680" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s-ObFcmHak2hAyVbCj2Y-82" value="1. export class Child extends&amp;nbsp;SomeComponent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="s-ObFcmHak2hAyVbCj2Y-81">
-          <mxGeometry y="30" width="280" height="30" as="geometry" />
+        <mxCell id="s-ObFcmHak2hAyVbCj2Y-82" value="1. export class Child extends&amp;nbsp;SomeComponent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="s-ObFcmHak2hAyVbCj2Y-81" vertex="1">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="s-ObFcmHak2hAyVbCj2Y-86" value="2. Use the inherited template or use template of SomeCoponent directly" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="s-ObFcmHak2hAyVbCj2Y-81">
-          <mxGeometry y="60" width="280" height="30" as="geometry" />
+        <mxCell id="s-ObFcmHak2hAyVbCj2Y-86" value="2. Use the inherited template or use template of SomeCoponent directly" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="s-ObFcmHak2hAyVbCj2Y-81" vertex="1">
+          <mxGeometry y="60" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="s-ObFcmHak2hAyVbCj2Y-84" value="3. Template can be child or replace the template of SomeComponent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="s-ObFcmHak2hAyVbCj2Y-81">
-          <mxGeometry y="90" width="280" height="30" as="geometry" />
+        <mxCell id="s-ObFcmHak2hAyVbCj2Y-84" value="3. Template can be child or replace the template of SomeComponent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="s-ObFcmHak2hAyVbCj2Y-81" vertex="1">
+          <mxGeometry y="90" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="s-ObFcmHak2hAyVbCj2Y-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.572;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s-ObFcmHak2hAyVbCj2Y-87" target="s-ObFcmHak2hAyVbCj2Y-105">
+        <mxCell id="s-ObFcmHak2hAyVbCj2Y-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.572;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="s-ObFcmHak2hAyVbCj2Y-87" target="s-ObFcmHak2hAyVbCj2Y-105" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s-ObFcmHak2hAyVbCj2Y-87" value="Patch SomeComponent" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="650" y="650" width="290" height="100" as="geometry" />
+        <mxCell id="s-ObFcmHak2hAyVbCj2Y-87" value="Patch SomeComponent" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="670" y="650" width="290" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="s-ObFcmHak2hAyVbCj2Y-90" value="1. Simply change the SomeComponent in place" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="s-ObFcmHak2hAyVbCj2Y-87">
+        <mxCell id="s-ObFcmHak2hAyVbCj2Y-90" value="1. Simply change the SomeComponent in place" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="s-ObFcmHak2hAyVbCj2Y-87" vertex="1">
           <mxGeometry y="26" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="s-ObFcmHak2hAyVbCj2Y-91" value="2. Also need to change the SomeComponent &#xa;template in place" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="s-ObFcmHak2hAyVbCj2Y-87">
+        <mxCell id="s-ObFcmHak2hAyVbCj2Y-91" value="2. Also need to change the SomeComponent &#xa;template in place" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="s-ObFcmHak2hAyVbCj2Y-87" vertex="1">
           <mxGeometry y="56" width="290" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="s-ObFcmHak2hAyVbCj2Y-92" value="Creat new Template" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="s-ObFcmHak2hAyVbCj2Y-92" value="Creat new Template" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="30" y="830" width="270" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="s-ObFcmHak2hAyVbCj2Y-96" value="Inherit to create new Template" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="330" y="830" width="270" height="86" as="geometry" />
+        <mxCell id="s-ObFcmHak2hAyVbCj2Y-96" value="Inherit to create new Template" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="350" y="830" width="270" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="s-ObFcmHak2hAyVbCj2Y-97" value="t-inherit" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="s-ObFcmHak2hAyVbCj2Y-96">
+        <mxCell id="s-ObFcmHak2hAyVbCj2Y-97" value="t-inherit" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="s-ObFcmHak2hAyVbCj2Y-96" vertex="1">
           <mxGeometry y="26" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="s-ObFcmHak2hAyVbCj2Y-98" value="t-inherit-mode" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="s-ObFcmHak2hAyVbCj2Y-96">
+        <mxCell id="s-ObFcmHak2hAyVbCj2Y-98" value="t-inherit-mode" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="s-ObFcmHak2hAyVbCj2Y-96" vertex="1">
           <mxGeometry y="56" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="s-ObFcmHak2hAyVbCj2Y-105" value="Inherit to modifile Template in place" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="640" y="830" width="270" height="86" as="geometry" />
+        <mxCell id="s-ObFcmHak2hAyVbCj2Y-105" value="Inherit to modifile Template in place" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="660" y="830" width="270" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="s-ObFcmHak2hAyVbCj2Y-106" value="t-inherit: optional" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="s-ObFcmHak2hAyVbCj2Y-105">
+        <mxCell id="s-ObFcmHak2hAyVbCj2Y-106" value="t-inherit: optional" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="s-ObFcmHak2hAyVbCj2Y-105" vertex="1">
           <mxGeometry y="26" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="s-ObFcmHak2hAyVbCj2Y-107" value="t-inherit-mode" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="s-ObFcmHak2hAyVbCj2Y-105">
+        <mxCell id="s-ObFcmHak2hAyVbCj2Y-107" value="t-inherit-mode" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="s-ObFcmHak2hAyVbCj2Y-105" vertex="1">
           <mxGeometry y="56" width="270" height="30" as="geometry" />
         </mxCell>
       </root>
