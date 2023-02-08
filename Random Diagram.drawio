@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T08:29:23.760Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.14" etag="AFic5VmV4txtx_YH-wlH" type="github"><diagram name="Page-1" id="5T5hC3-ou7dkrhP8sE5L">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-08T09:28:48.715Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="3MgV4NVzJxVvpO0TLIBw" version="20.8.14" type="github">
+  <diagram name="Page-1" id="5T5hC3-ou7dkrhP8sE5L">
+    <mxGraphModel dx="1839" dy="1634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CNE02UG2VFCmsr0iyik4-6" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-80" y="-390" width="860" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="CNE02UG2VFCmsr0iyik4-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="CNE02UG2VFCmsr0iyik4-6">
+          <mxGeometry width="860" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="CNE02UG2VFCmsr0iyik4-3" value="&lt;h1&gt;FormViewDialgog adapt from v14 to v16&lt;/h1&gt;&lt;div&gt;Adapt là việc sử dụng component của v16 bên trong legacy code của v14 mà cụ thể ở đây là FromViewDialog Component ở trong legacy Timeline view&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="CNE02UG2VFCmsr0iyik4-6">
+          <mxGeometry x="167.03287671232877" y="27.04" width="540.6383561643836" height="90.12" as="geometry" />
+        </mxCell>
+        <mxCell id="CNE02UG2VFCmsr0iyik4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CNE02UG2VFCmsr0iyik4-6" source="CNE02UG2VFCmsr0iyik4-13" target="CNE02UG2VFCmsr0iyik4-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CNE02UG2VFCmsr0iyik4-13" value="&lt;b&gt;ComponentWraper&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="CNE02UG2VFCmsr0iyik4-6">
+          <mxGeometry x="215.83589041095888" y="170" width="269.5890410958904" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CNE02UG2VFCmsr0iyik4-14" value="useWowlService(&#39;dialog&#39;);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="CNE02UG2VFCmsr0iyik4-13">
+          <mxGeometry y="30" width="269.5890410958904" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CNE02UG2VFCmsr0iyik4-15" value="&amp;nbsp;onRendered(() =&amp;gt; { dialog.add()}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="CNE02UG2VFCmsr0iyik4-13">
+          <mxGeometry y="60" width="269.5890410958904" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CNE02UG2VFCmsr0iyik4-16" value="onWillUnmount(() =&amp;gt; { this.close }" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="CNE02UG2VFCmsr0iyik4-13">
+          <mxGeometry y="90" width="269.5890410958904" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CNE02UG2VFCmsr0iyik4-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CNE02UG2VFCmsr0iyik4-6" source="CNE02UG2VFCmsr0iyik4-22" target="CNE02UG2VFCmsr0iyik4-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CNE02UG2VFCmsr0iyik4-22" value="&lt;b&gt;OWL Component&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="CNE02UG2VFCmsr0iyik4-6">
+          <mxGeometry x="580.9000845594452" y="185.00234567901236" width="157.26027397260276" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CNE02UG2VFCmsr0iyik4-23" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="CNE02UG2VFCmsr0iyik4-22">
+          <mxGeometry y="30" width="157.26027397260276" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CNE02UG2VFCmsr0iyik4-24" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="CNE02UG2VFCmsr0iyik4-22">
+          <mxGeometry y="60" width="157.26027397260276" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CNE02UG2VFCmsr0iyik4-25" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="CNE02UG2VFCmsr0iyik4-22">
+          <mxGeometry y="90" width="157.26027397260276" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CNE02UG2VFCmsr0iyik4-17" value="&lt;b&gt;LegacyComponent&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="CNE02UG2VFCmsr0iyik4-6">
+          <mxGeometry x="100.00246575342464" y="410" width="501.26712328767127" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CNE02UG2VFCmsr0iyik4-18" value="componet = New ComponentWrapper(&amp;nbsp;parent,&amp;nbsp;&lt;span style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;ComponentWraper&lt;/span&gt;, props)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="CNE02UG2VFCmsr0iyik4-17">
+          <mxGeometry y="30" width="501.26712328767127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CNE02UG2VFCmsr0iyik4-19" value="props bao gồm cả props sẽ truyền vào component và callback method (nếu có)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="CNE02UG2VFCmsr0iyik4-17">
+          <mxGeometry y="60" width="501.26712328767127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CNE02UG2VFCmsr0iyik4-20" value="component.mount(target)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="CNE02UG2VFCmsr0iyik4-17">
+          <mxGeometry y="90" width="501.26712328767127" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
