@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T03:15:16.980Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.1.0" etag="hC07sjkmg8jziOy99aTa" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-11T03:31:33.943Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="T2ut3LQlwEBbdErsOup0" version="21.1.0" type="github">
   <diagram name="Page-1" id="rfjPHw3PFq2ry8Ctk0oD">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-g0YFqa6J-ZYHeAMwreA-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="100" width="460" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="-g0YFqa6J-ZYHeAMwreA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="-g0YFqa6J-ZYHeAMwreA-1" target="-g0YFqa6J-ZYHeAMwreA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-g0YFqa6J-ZYHeAMwreA-1" value="FTP service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-g0YFqa6J-ZYHeAMwreA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-g0YFqa6J-ZYHeAMwreA-2" target="-g0YFqa6J-ZYHeAMwreA-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-g0YFqa6J-ZYHeAMwreA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-g0YFqa6J-ZYHeAMwreA-2" target="-g0YFqa6J-ZYHeAMwreA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-g0YFqa6J-ZYHeAMwreA-2" value="Plain db (Flask Service)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-g0YFqa6J-ZYHeAMwreA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-g0YFqa6J-ZYHeAMwreA-3" target="-g0YFqa6J-ZYHeAMwreA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-g0YFqa6J-ZYHeAMwreA-3" value="Marchine 97&lt;br style=&quot;font-size: 18px;&quot;&gt;Odoo service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="50" y="360" width="460" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-g0YFqa6J-ZYHeAMwreA-5" value="Marchine 36" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="220" y="130" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
